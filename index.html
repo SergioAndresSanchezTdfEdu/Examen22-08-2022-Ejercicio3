@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ejercicio 3 - FlexBox</title>
+    <style>
+        body {
+            background-color: #ffffff;
+            color: white;
+        }
+
+        div {
+            margin: 0px;
+        }
+
+        .encabezado {
+            display: flex;
+            padding: 0%;
+            width: 100%;
+            height: 65px;
+            color: #101010;
+            background-color: #a1a3c8;
+            border: 1px solid;
+            border-color: #c3bfca;
+            border-radius: 5px;
+        }
+
+        .contenedor {
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            margin-top: 2px;
+            margin-bottom: 10px;
+            flex-direction: row;
+            align-content: flex-start;
+        }
+
+        .contenedor2{
+            display: flex;
+            flex-wrap: wrap;
+            width: 69%;
+        }
+
+        .izquierda {
+            padding: 0%;
+            width: 30%;
+            height: 305px;
+            background-color: #ed958a;
+            border: 1px solid;
+            border-color: #e7a79c;
+            border-radius: 5px;
+        }
+
+        .arriba {
+            padding: 0%;
+            width: 100%;
+            height: 100px;
+            background-color: #a5d191;
+            border: 1px solid;
+            border-color: #a7ca9a;
+            border-radius: 5px;
+            align-self: stretch;
+        }
+
+        .medio {
+            padding: 0%;
+            width: 100%;
+            height: 100px;
+            background-color: #f9de68;
+            border: 1px solid;
+            border-color: #f5d78c;
+            border-radius: 5px;
+            align-self: stretch;
+        }
+
+        .abajo1 {
+            padding: 0%;
+            width: 50%;
+            height: 100px;
+            background-color: #82d8d3;
+            border: 1px solid;
+            border-color: #acd5cd;
+            border-radius: 5px;
+        }
+
+        .abajo2 {
+            padding: 0%;
+            width: 49%;
+            height: 100px;
+            background-color: #ce8dc5;
+            border: 1px solid;
+            border-color: #d9b7cb;
+            border-radius: 5px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="encabezado"></div>
+    <div class="contenedor">  
+        <div class="izquierda"></div>
+        <div class="contenedor2">
+            <div class="arriba"></div>
+            <div class="medio"></div>
+            <div class="abajo1"></div>
+            <div class="abajo2"></div>
+        </div>
+    </div>
+  </body>
+</html>
